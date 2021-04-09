@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/github-actions-typescript-template.git"
+    "url": "git+https://github.com/rpidanny/github-actions-typescript-template.git"
   },
   "keywords": [
     "actions",
@@ -35,7 +35,7 @@
       "npm run lint"
     ]
   },
-  "author": "",
+  "author": "Abhishek Maharjan",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.6"
