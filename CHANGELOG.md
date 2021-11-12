@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/rpidanny/github-actions-typescript-template/compare/v1.1.0...v1.2.0) (2021-11-12)
+
+
+### Features
+
+* move codeowners ([49d253d](https://github.com/rpidanny/github-actions-typescript-template/commit/49d253db4db7392d308ca10cb42e572d108ef382))
+
 ## [1.1.0](https://github.com/rpidanny/github-actions-typescript-template/compare/v1.0.1...v1.1.0) (2021-11-12)
 
 
