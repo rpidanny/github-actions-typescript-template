@@ -1,3 +1,11 @@
+### [1.0.1](https://github.com/rpidanny/github-actions-typescript-template/compare/v1.0.0...v1.0.1) (2021-11-12)
+
+
+### Bug Fixes
+
+* jest ([2415a99](https://github.com/rpidanny/github-actions-typescript-template/commit/2415a9937fbcc85399f34a424887a4fc14a21794))
+* npm audit ([84f3dc0](https://github.com/rpidanny/github-actions-typescript-template/commit/84f3dc0b1c743ac94ffe8311dab9967c9c307ee5))
+
 ## 1.0.0 (2021-04-09)
 
 
