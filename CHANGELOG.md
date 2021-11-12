@@ -1,3 +1,11 @@
+### [1.3.1](https://github.com/rpidanny/github-actions-typescript-template/compare/v1.3.0...v1.3.1) (2021-11-12)
+
+
+### Bug Fixes
+
+* add npm build ([23af8a2](https://github.com/rpidanny/github-actions-typescript-template/commit/23af8a2a8aa98da9399f0f69a4a88ef48c5865c2))
+* package script ([1eda9b7](https://github.com/rpidanny/github-actions-typescript-template/commit/1eda9b7bacdcb7b2e83046af3a2804f411d5834d))
+
 ## [1.3.0](https://github.com/rpidanny/github-actions-typescript-template/compare/v1.2.0...v1.3.0) (2021-11-12)
 
 
