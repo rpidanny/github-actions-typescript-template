@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/rpidanny/github-actions-typescript-template/compare/v1.0.1...v1.1.0) (2021-11-12)
+
+
+### Features
+
+* refactor gha ([ebf0d3d](https://github.com/rpidanny/github-actions-typescript-template/commit/ebf0d3d9cf78dc649d7df99bad2c6cd44f7dcb65))
+
 ### [1.0.1](https://github.com/rpidanny/github-actions-typescript-template/compare/v1.0.0...v1.0.1) (2021-11-12)
 
 
