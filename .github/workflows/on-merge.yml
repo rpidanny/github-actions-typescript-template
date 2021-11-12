@@ -1,4 +1,4 @@
-name: Release
+name: On Merge to Main
 
 on:
   push:
@@ -6,9 +6,9 @@ on:
       - 'main'
 
 jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
+  build-and-test:
+    name: Build And Test
+    runs-on: ubuntu-20.04
     timeout-minutes: 5
 
     steps:
@@ -44,9 +44,10 @@ jobs:
       - name: Test
         run: npm test
 
-  test: # make sure the action works on a clean machine without building
-    needs: [build]
-    runs-on: ubuntu-latest
+  test-action: # make sure the action works on a clean machine without building
+    name: Test Action
+    needs: [build-and-test]
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
       - uses: ./
@@ -55,8 +56,8 @@ jobs:
 
   release:
     name: Release
-    runs-on: ubuntu-latest
-    needs: [test]
+    runs-on: ubuntu-20.04
+    needs: [test-action]
     timeout-minutes: 5
 
     steps:
@@ -81,7 +82,7 @@ jobs:
         run: npm ci
 
       - name: Release
-        run: npm run semantic-release
+        run: npm run release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           CI: true
