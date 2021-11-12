@@ -2,8 +2,8 @@ name: Update Semver
 
 on:
   push:
-    branches-ignore:
-      - '**'
+    # branches-ignore:
+    #   - '**'
     tags:
       - 'v*.*.*'
 
