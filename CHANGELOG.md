@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/rpidanny/github-actions-typescript-template/compare/v1.2.0...v1.3.0) (2021-11-12)
+
+
+### Features
+
+* automate dist release ([e1cc251](https://github.com/rpidanny/github-actions-typescript-template/commit/e1cc251651f521184d1bbc7368e98c5a429d61c2))
+
 ## [1.2.0](https://github.com/rpidanny/github-actions-typescript-template/compare/v1.1.0...v1.2.0) (2021-11-12)
 
 
